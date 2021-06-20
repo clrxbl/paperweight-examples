@@ -1,10 +1,11 @@
 pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven("https://papermc.io/repo/repository/maven-public/")
-    }
+  repositories {
+    mavenLocal()
+    gradlePluginPortal()
+    maven("https://papermc.io/repo/repository/maven-public/")
+  }
 }
 
-rootProject.name = "ForkTest"
+rootProject.name = "Byof"
 
-include("ForkTest-API", "ForkTest-Server")
+include("Byof-API", "Byof-Server")
